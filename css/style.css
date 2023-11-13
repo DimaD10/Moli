@@ -2045,7 +2045,7 @@ li, .gallery-card {
 .news-wrapper {
   height: 100%;
   position: relative;
-  background: url("../img/interior/img.png") no-repeat 100%;
+  background: url("../img/interior/img.webp") no-repeat 100%;
   background-size: cover;
   background-position: center;
   display: -webkit-box;
