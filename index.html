@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moli</title>
+    <link rel="shortcut icon" href="./img/fav-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper__overlay"></div>
+
+      <header class="header">
+        <div class="header-navigation">
+          <button class="header-navigation__burger-btn active">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="header-navigation__list active">
+            <li class="header-navigation__el header-navigation__el_current">home</li>
+            <li class="header-navigation__el">menu</li>
+            <li class="header-navigation__el">galery</li>
+            <li class="header-navigation__el">news</li>
+            <li class="header-navigation__el">contacts</li>
+          </ul>
+        </div>
+
+        <div class="main-header">
+          <div class="main-header__logo">
+            <img src="./img/logo.svg" alt="" />
+          </div>
+          <div class="main-header__lang-list">
+            <a href="#" class="main-header__lang main-header__lang_current"
+              >En</a
+            >
+            <a href="#" class="main-header__lang">Ae</a>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="main__decor-line main__decor-line_left"></div>
+        <div class="main__decor-line main__decor-line_right"></div>
+
+        <img
+          src="./img/decor/typography-decor.svg"
+          alt=""
+          class="main__decor" />
+
+        <div class="site">
+          <section class="main__home home extern-page current">
+            <div class="main__general-bg">
+              <img src="./img/bg/general-bg.png" alt="" />
+            </div>
+
+            <div class="home__article article">
+                <h1 class="article__title home__title title">Welcome to MOLI by SHI.</h1>
+                <div class="article__body">
+                    <p class="article__subtitle">
+                        Moli is derived from the Chinese description of white Jasmin flower.
+                    </p>
+                    <p class="article__paragraph">
+                        Experience decadent Chinese cuisine so pure and exquisite as you delicately unfold the secret magic of taste that will stimulate the enchanting flavors prepared to perfection with a contemporary twist like no other.
+                    </p>
+
+                    <div class="article__text-decor">about us</div>
+                </div>
+
+            </div>
+          </section>
+
+          <section class="main__gallery gallery extern-page">
+            <div class="gallery-wrapper">
+              <div class="gallery-card call-interior-gallery">
+                <div class="gallery-card__bg">
+                    <img src="./img//galery/img1.png" alt="">
+                </div>
+
+                <div class="gallery-card__content">
+                    <h4 class="gallery-card__title title">Interior</h4>
+
+                    <div class="gallery-card__button">
+                        <div class="gallery-card__button-icon">
+                            <img src="./img/icons/arrow-right.svg" alt="">
+                        </div>
+
+                        <span class="gallery-card__button-text">
+                            view galery
+                        </span>
+                    </div>
+                </div>
+              </div>
+
+              <div class="gallery-card call-food-gallery">
+                <div class="gallery-card__bg">
+                    <img src="./img//galery/img2.png" alt="">
+                </div>
+
+                <div class="gallery-card__content">
+                    <h4 class="gallery-card__title title">Food</h4>
+
+                    <div class="gallery-card__button">
+                        <div class="gallery-card__button-icon">
+                            <img src="./img/icons/arrow-right.svg" alt="">
+                        </div>
+
+                        <span class="gallery-card__button-text">
+                            view galery
+                        </span>
+                    </div>
+                </div>
+              </div>
+
+              <div class="gallery-card call-guests-gallery">
+                <div class="gallery-card__bg">
+                    <img src="./img//galery/img3.png" alt="">
+                </div>
+
+                <div class="gallery-card__content">
+                    <h4 class="gallery-card__title title">Guests</h4>
+
+                    <div class="gallery-card__button">
+                        <div class="gallery-card__button-icon">
+                            <img src="./img/icons/arrow-right.svg" alt="">
+                        </div>
+
+                        <span class="gallery-card__button-text">
+                            view galery
+                        </span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="main__menu menu extern-page">
+            <div class="menu-wrapper">
+                <div class="menu__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide menu-slide-bg">
+                            <img src="./img/menu/img.png" alt="">
+                        </div>
+                        <div class="swiper-slide menu-slide-bg">
+                            <img src="./img/menu/img2.png" alt="">
+                        </div>
+                        <div class="swiper-slide menu-slide-bg">
+                            <img src="./img/menu/img3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu__article article">
+                    <h2 class="article__title home__title title">Chinese cuisine</h2>
+                    <div class="article__body">
+
+                        <p class="article__paragraph">
+                            With an array of delicious five-star masterpieces to tantalize the taste buds, this new venue will impress guests looking for something truly magical.
+                        </p>
+
+                        <div class="article__text-decor">Menu</div>
+                    </div>
+                    <button class="article__button button button_filled show-catalog">View the menu</button>
+                </div>
+            </div>
+          </section>
+
+          <section class="main__news news extern-page">
+            <div class="news-wrapper">
+              <div class="news__bg">
+                <img src="./img/bg/news-bg.png" alt="">
+              </div>
+
+              <img src="./img/decor/typography-decor.svg" alt="" class="main__decor" >
+
+              <div class="news__article article">
+                <div class="article__header">
+                  <h2 class="article__title home__title title">News</h2>
+
+                  <div class="news-navigation">
+                    <button class="slider-navigation__news-btn-prev gallery-btn-prev">
+                      <img src="./img/icons/arrow-right.svg" alt="">
+                    </button>
+                    <button class="slider-navigation__news-btn-next gallery-btn-next">
+                      <img src="./img/icons/arrow-right.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+                  <div class="article__body">
+                    <div class="article__slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide news-slide">
+                          <div class="news-slide__preview">
+                            <img src="./img/news-preview.png" alt="">
+                          </div>
+                          <div class="news-slide__article">
+                            <p class="article__subtitle">
+                                Your ultimate guide to eating and drinking in Dubai Hills Business Park
+                            </p>
+
+                            <p class="article__paragraph">
+                                Dubai, make way for a new foodie hotspot… <br> On our radar thanks to the recent influx of restaurant, cafe, and bar openings, ...
+                            </p>
+
+                            <a href="#" class="article__link">whatson.ae</a>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide news-slide">
+                          <div class="news-slide__preview">
+                            <img src="./img/news-preview.png" alt="">
+                          </div>
+                          <div class="news-slide__article">
+                            <p class="article__subtitle">
+                                Your ultimate guide to eating and drinking in Dubai Hills Business Park
+                            </p>
+
+                            <p class="article__paragraph">
+                                On our radar thanks to the recent influx of restaurant, cafe, and bar openings, ...
+                            </p>
+
+                            <a href="#" class="article__link">whatson.ae</a>
+                          </div>
+                        </div>
+
+                        <div class="swiper-slide news-slide">
+                          <div class="news-slide__preview">
+                            <img src="./img/news-preview.png" alt="">
+                          </div>
+                          <div class="news-slide__article">
+
+                            <p class="article__paragraph">
+                                Dubai, make way for a new foodie hotspot… <br> On our radar thanks to the recent influx of restaurant, cafe, and bar openings, ...
+                            </p>
+
+                            <a href="#" class="article__link">whatson.ae</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="article__text-decor">News</div>
+                  </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="main__contacts contacts extern-page">
+            <div class="contacts-wrapper">
+              <div class="contacts__bg">
+                <img src="./img/bg/contacts.png" alt="">
+              </div>
+
+              <div class="contacts__article article">
+                <h1 class="article__title contacts__title title">Moli contacts</h1>
+                <div class="article__body">
+                    <p class="article__paragraph">
+                      <span class="bronze">Tel.:</span> <a href="tel:+97144262626">+971 4 426 26 26</a>
+                    </p>
+                    <br><br>
+                    <p class="article__paragraph">
+                      <span class="bronze">Mail:</span> <a href="mailto:info@molibyshi.com">info@molibyshi.com</a>
+                    </p>
+                    <br><br>
+                    <p class="article__paragraph">
+                      <span class="bronze">Location:</span> <br> <span>
+                        Bluewaters Island - Unnamed Road - Dubai - United Arab Emirates
+                      </span>
+                    </p>
+                    <br><br>
+                    <p class="article__paragraph">
+                      <span class="bronze">6pm - 11pm</span> Monday - Saturday
+                    </p>
+
+                    <div class="article__text-decor">Contacts</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <div class="site-actions">
+        <div class="site-actions__location site-actions-block">
+          <button class="site-actions__button site-actions__button_dark">
+            <span class="site-actions__button-icon">
+              <svg
+                width="30"
+                height="14"
+                viewBox="0 0 30 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30 12.5L14.5 0L0 12.5L1 13.5L14.5 2L29 13.5L30 12.5Z"
+                  fill="white" />
+              </svg>
+            </span>
+            <span class="site-actions__button-text">location</span>
+          </button>
+
+          <div class="site-actions__body location-body">
+            <a href="https://www.google.com/maps/place/MOLI+by+SHI/@25.1028094,55.2412388,15.25z/data=!4m14!1m7!3m6!1s0x3e5f696f4cdba275:0x79d19fed5f2583d1!2sMOLI+by+SHI!8m2!3d25.1061759!4d55.2392147!16s%2Fg%2F11vc1n1dqb!3m5!1s0x3e5f696f4cdba275:0x79d19fed5f2583d1!8m2!3d25.1061759!4d55.2392147!16s%2Fg%2F11vc1n1dqb?entry=ttu" target="_blank" class="location-body__map">
+              <img src="./img/bg/map.png" alt="" />
+            </a>
+
+            <div class="location-body__body">
+              <address class="location-body__address">
+                Blue Waters​ 15a, Blue Waters Island Street
+                <br />
+                ​Ground Floor
+                <br />
+                10702 74958 Marsa Dubai, Jebel Ali, Dubai
+              </address>
+
+              <div class="location-body__schedule schedule">
+                <h3 class="schedule__title">Open</h3>
+
+                <div class="schedule__body">
+                  <span class="schedule__row">
+                    <span class="schedule__day">weekday:</span>
+                    <span>2:00 pm-1:00 am</span>
+                  </span>
+                  <span class="schedule__row">
+                    <span class="schedule__day">weekend:</span>
+                    <span>1:00 pm-2:00 am</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-actions__reservation site-actions-block">
+          <button class="site-actions__button site-actions__button_light">
+            <span class="site-actions__button-text">Reservation</span>
+
+            <span class="site-actions__button-icon">
+              <svg
+                width="30"
+                height="14"
+                viewBox="0 0 30 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30 12.5L14.5 0L0 12.5L1 13.5L14.5 2L29 13.5L30 12.5Z"
+                  fill="white" />
+              </svg>
+            </span>
+          </button>
+
+          <div class="site-actions__body reservation-body">
+            <div class="reservation-body__body">
+              <form class="reservation-body__form">
+                <div class="reservation-body__block">
+                  <h3 class="reservation-body__title">Select a date</h3>
+
+                  <div class="reservation-body__select">
+                    <input type="date" required class="reservation-body__select-input" id="myDate" oninput="validateDate()">
+                  </div>
+
+                  <p class="reservation-body__paragraph">
+                    Online reservations are subject to availability. <br />Our
+                    reservations team reserves the right to confirm depending on
+                    availability.
+                  </p>
+                </div>
+
+                <div class="reservation-body__block">
+                  <h3 class="reservation-body__title">Please select:</h3>
+
+                  <div class="reservation-body__buttons">
+                    <button
+                      class="reservation-body__button reservation-body__button_filled"
+                      data-value="lunch">
+                      Lunch
+                    </button>
+                    <button
+                      class="reservation-body__button"
+                      data-value="evening">
+                      Evening
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="reservation-body__preview">
+              <div class="reservation-body__preview-img">
+                <img src="./img/bg/reservation-preview.png" alt="" />
+              </div>
+
+              <button class="reservation-body__share">
+                <img src="./img/icons/share-icon.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog catalog-frame">
+        <div class="catalog__wrapper">
+
+            <div class="main__decor-line main__decor-line_left"></div>
+            <div class="main__decor-line main__decor-line_middle"></div>
+            <div class="main__decor-line main__decor-line_right"></div>
+
+
+            <div class="catalog__header">
+                <button class="catalog__return-btn">
+                    <img src="./img/icons/arrow-right.svg" alt="">
+
+                    <span>Back</span>
+                </button>
+
+                <h3 class="catalog__title title">Menu</h3>
+            </div>
+
+            <div class="catalog__body">
+                <div class="catalog__category">
+                    <div class="catalog__category-decor">
+                        <span>DIM SUM</span>
+                        <img src="./img/icons/arrow-right.svg" alt="">
+                    </div>
+                    <div class="catalog__list">
+                        <div><span>Lobster dumpling</span></div>
+                        <div><span>Potato style curry beef bao</span></div>
+                        <div><span>Angus beef kimchi dumpling</span></div>
+                        <div><span>Cornfed chicken puff</span></div>
+
+                        <div><span>Baked char sui bao</span></div>
+                        <div><span>Cuttlefish dumpling</span></div>
+                        <div><span>Wagyu beef rainbow puff</span></div>
+                        <div><span>Tiger prawn & garlic sprout dumpling</span></div>
+
+                        <div><span>Chicken xiao long bao</span></div>
+                        <div><span>Morel mushroom with pumpkin sauce</span></div>
+                        <div><span>Black garlic seafood sui mai</span></div>
+                        <div><span>Prawn har gau</span></div>
+
+                        <div><span>Mixed vegetable puff</span></div>
+                        <div><span>Prawn chives dumpling</span></div>
+                        <div><span>Vegetable Shanghai</span></div>
+                    </div>
+
+                    <button class="catalog__more-btn">
+                        <img src="./img/icons/arrow-bottom.svg" alt="">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+      </div>
+
+
+      <div class="catalog catalog-gallery catalog-gallery_interior">
+        <div class="catalog__wrapper">
+
+            <div class="main__decor-line main__decor-line_left"></div>
+            <div class="main__decor-line main__decor-line_middle"></div>
+            <div class="main__decor-line main__decor-line_right"></div>
+
+
+            <div class="catalog__header">
+                <button class="catalog__return-btn">
+                    <img src="./img/icons/arrow-right.svg" alt="">
+
+                    <span>Back</span>
+                </button>
+
+                <h3 class="catalog__title title">Interior  Moli</h3>
+
+                <div class="slider-navigation">
+                    <button class="slider-navigation__interior-btn-prev gallery-btn-prev">
+                      <img src="./img/icons/arrow-right.svg" alt="">
+                    </button>
+                    <button class="slider-navigation__interior-btn-next gallery-btn-next">
+                      <img src="./img/icons/arrow-right.svg" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="catalog__body">
+              <div class="catalog-gallery__slider interior-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="catalog catalog-gallery catalog-gallery_food">
+        <div class="catalog__wrapper">
+
+            <div class="main__decor-line main__decor-line_left"></div>
+            <div class="main__decor-line main__decor-line_middle"></div>
+            <div class="main__decor-line main__decor-line_right"></div>
+
+
+            <div class="catalog__header">
+                <button class="catalog__return-btn">
+                    <img src="./img/icons/arrow-right.svg" alt="">
+
+                    <span>Back</span>
+                </button>
+
+                <h3 class="catalog__title title">Food  Moli</h3>
+
+                <div class="slider-navigation">
+                    <button class="slider-navigation__food-btn-prev gallery-btn-prev">
+                      <img src="./img/icons/arrow-right.svg" alt="">
+                    </button>
+                    <button class="slider-navigation__food-btn-next gallery-btn-next">
+                      <img src="./img/icons/arrow-right.svg" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="catalog__body">
+              <div class="catalog-gallery__slider food-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="catalog catalog-gallery catalog-gallery_guests">
+        <div class="catalog__wrapper">
+
+            <div class="main__decor-line main__decor-line_left"></div>
+            <div class="main__decor-line main__decor-line_middle"></div>
+            <div class="main__decor-line main__decor-line_right"></div>
+
+
+            <div class="catalog__header">
+                <button class="catalog__return-btn">
+                    <img src="./img/icons/arrow-right.svg" alt="">
+
+                    <span>Back</span>
+                </button>
+
+                <h3 class="catalog__title title">Guests Moli</h3>
+
+                <div class="slider-navigation">
+                    <button class="slider-navigation__guests-btn-prev gallery-btn-prev">
+                      <img src="./img/icons/arrow-right.svg" alt="">
+                    </button>
+                    <button class="slider-navigation__guests-btn-next gallery-btn-next">
+                      <img src="./img/icons/arrow-right.svg" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="catalog__body">
+              <div class="catalog-gallery__slider guests-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                  <div class="swiper-slide catalog-gallery__slide">
+                    <img src="./img/interior/img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="preloader">
+        <div class="preloader-wrapper">
+          <div class="preloader__logo">
+            <img src="./gif/preloader.gif" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/navigate.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/actions.js"></script>
+    <script src="./js/form.js"></script>
+
+    <script>
+        function validateDate() {
+            var inputDate = document.getElementById('myDate').value;
+            var today = new Date().toISOString().split('T')[0];
+
+            if (inputDate < today) {
+                document.getElementById('myDate').value = today;
+            }
+        }
+    </script>
+  </body>
+</html>
