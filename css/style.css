@@ -612,8 +612,8 @@ li, .gallery-card {
 }
 .site-actions__location iframe {
   height: 350px !important;
-  -webkit-filter: grayscale(100%) brightness(0.5);
-          filter: grayscale(100%) brightness(0.5);
+  -webkit-filter: grayscale(80%) brightness(0.8);
+          filter: grayscale(80%) brightness(0.8);
 }
 .site-actions__button {
   display: -webkit-box;
@@ -814,6 +814,22 @@ li, .gallery-card {
     padding-left: calc(12px + 24 * (100vw - 320px) / 880);
     font-size: calc(14px + 7 * (100vw - 320px) / 880);
   }
+}
+.location-body .real-map {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity ease 0.4s;
+  transition: opacity ease 0.4s;
+  opacity: 0;
+  pointer-events: none;
+}
+.location-body .real-map.active {
+  opacity: 1;
+  pointer-events: all;
 }
 
 .schedule {
@@ -1580,6 +1596,7 @@ li, .gallery-card {
   height: 100%;
   position: relative;
   z-index: 10;
+  overflow: auto;
 }
 .catalog__wrapper::after {
   content: "";
@@ -1593,9 +1610,6 @@ li, .gallery-card {
   background-position: center;
   opacity: 0.1;
   z-index: -1;
-}
-.catalog__wrapper.active {
-  overflow: auto;
 }
 .catalog__header {
   padding: 35px 18px;

@@ -55,6 +55,13 @@ document.addEventListener("click", (e) => {
     e.target.closest(".catalog").classList.remove("active");
     document.querySelector(".header-navigation").classList.remove("hidden");
   }
+
+  if (e.target.closest('.preloader')) {
+    e.target.closest(".preloader").classList.add('hidden');
+  }
+  if (e.target.closest(".location-body__map")) {
+    document.querySelector('.real-map').classList.add("active")
+  }
 });
 
 window.addEventListener("load", () => {
