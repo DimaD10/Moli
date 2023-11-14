@@ -345,6 +345,12 @@
       display: none;
     }
   }
+
+  @media (max-width: 480px) {
+    .article {
+      margin-bottom: 240px;
+    }
+  }
 }
 
 .site-actions {
@@ -1789,7 +1795,6 @@
       background-position: center;
       opacity: 0.1;
       filter: grayscale(1);
-      
     }
   }
 

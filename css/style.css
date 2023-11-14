@@ -599,6 +599,11 @@ li, .gallery-card {
     display: none;
   }
 }
+@media (max-width: 480px) {
+  .home .article {
+    margin-bottom: 240px;
+  }
+}
 
 .site-actions {
   position: fixed;
