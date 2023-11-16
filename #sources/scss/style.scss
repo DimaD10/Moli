@@ -745,6 +745,9 @@
     font-weight: 600;
     width: 100%;
   }
+  &__hidden-input {
+    display: none;
+  }
 
   // .reservation-body__block
 
@@ -838,6 +841,27 @@
       background-color: $bronze;
     }
   }
+}
+.success-message, .error-message {
+  font-size: 20px;
+  padding: 12px 18px;
+  font-weight: 700;
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+.success-message {
+  border: 2px solid rgb(111, 216, 88);
+  color: rgb(111, 216, 88);
+}
+.error-message {
+  border: 2px solid rgb(215, 79, 74);
+  color: rgb(215, 79, 74);
+}
+#res-form.hidden {
+  display: none;
 }
 
 .article {
@@ -1816,4 +1840,9 @@
   100% {
     transform: translateX(20%);
   }
+}
+
+#myDate.error {
+  border: 3px solid #ff3a3a;
+  box-shadow: rgba(255, 0, 0, 0.8) 0px 2px 18px 2px;
 }

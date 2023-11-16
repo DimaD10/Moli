@@ -353,12 +353,14 @@
 
           <div class="site-actions__body reservation-body">
             <div class="reservation-body__body">
-              <form class="reservation-body__form">
+              <form class="reservation-body__form" id="res-form">
                 <div class="reservation-body__block">
                   <h3 class="reservation-body__title">Select a date</h3>
 
                   <div class="reservation-body__select">
-                    <input type="date" required class="reservation-body__select-input" id="myDate" oninput="validateDate()">
+                    <input type="date" required class="reservation-body__select-input" id="myDate" name="user_date" oninput="validateDate()">
+
+                    <input type="text" value="" name="user_choice" class="reservation-body__hidden-input">
                   </div>
 
                   <p class="reservation-body__paragraph">
@@ -385,6 +387,13 @@
                   </div>
                 </div>
               </form>
+
+              <div class="success-message">
+                Success!
+              </div>
+              <div class="error-message">
+                Error!
+              </div>
             </div>
             <div class="reservation-body__preview">
               <div class="reservation-body__preview-img">
@@ -616,6 +625,7 @@
       </div>
     </div>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/slider.js"></script>
     <script src="./js/navigate.js"></script>
@@ -623,6 +633,11 @@
     <script src="./js/actions.js"></script>
     <script src="./js/form.js"></script>
 
+    <script type="text/javascript">
+      (function() {
+          emailjs.init('6vRcXwMzTAdMWmEqY');
+      })();
+    </script>
     <script>
         function validateDate() {
             var inputDate = document.getElementById('myDate').value;
