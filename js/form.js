@@ -1,5 +1,5 @@
 const form = document.getElementById('res-form')
-
+/*
 document.addEventListener('click', e => {
     if (e.target.classList.contains("reservation-body__button")) {
         e.preventDefault()
@@ -21,10 +21,8 @@ document.addEventListener('click', e => {
                     document.querySelector('.error-message').classList.add('active')
                 });
         } else {
-            console.log(false);
-
             date.classList.add('error');
             alert('Select Your Date Please')
         }
     }
-})
+})*/

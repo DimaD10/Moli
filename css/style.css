@@ -1704,6 +1704,7 @@ li, .gallery-card {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 40px;
+  padding-bottom: 30px;
 }
 @media (max-width: 1200px) {
   .catalog__body {
@@ -2344,42 +2345,11 @@ li, .gallery-card {
 .preloader__logo {
   max-width: 300px;
   z-index: 10;
-  -webkit-animation: preloader ease forwards 9s;
-          animation: preloader ease forwards 9s;
 }
 .preloader__logo img {
   width: 100%;
 }
 
-@-webkit-keyframes preloader {
-  0% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-  }
-  90% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-  }
-  100% {
-    -webkit-transform: translateX(20%);
-            transform: translateX(20%);
-  }
-}
-
-@keyframes preloader {
-  0% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-  }
-  90% {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-  }
-  100% {
-    -webkit-transform: translateX(20%);
-            transform: translateX(20%);
-  }
-}
 #myDate.error {
   border: 3px solid #ff3a3a;
   -webkit-box-shadow: rgba(255, 0, 0, 0.8) 0px 2px 18px 2px;
